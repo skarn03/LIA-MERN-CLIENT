@@ -1,0 +1,107 @@
+
+
+.Search {
+    /*
+    background-color: #282c34;
+    */
+    background-color: #222;
+
+
+    width: 100%;
+    min-height: 80vh;
+    padding: 5%;
+    padding-top: 1%;
+    /*
+  background-image: linear-gradient(rgba(143,0,255,0.2),rgba(0,100,203,0.2)),url("https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg");
+  */
+
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+
+    outline: 20px;
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 30%;
+    padding: 10px 20px;
+    padding-left: 0px;
+  }
+  
+  
+  .bar input {
+    background: transparent;
+    flex: 1;
+    border: none;
+  
+    outline: 1px;
+    padding: 24px, 24px;
+    font-size: 30px;
+    color: #cac7ff
+  }
+  
+  ::placeholder {
+    color: #cac7ff
+  }
+  
+  .bar input[type=text] {
+    font-family: Lucida Console;
+    font-size: x-large;
+    padding-left: 25px;
+    text-shadow: 20px -15px 25px silver, -50px -20px 25px black;
+    box-shadow: #58629b;
+  
+  }
+  
+  .bar button img {
+    animation: mover 2s infinite linear;
+    border-style: dashed;
+  
+    width: 30px;
+    height: 23px;
+    border-radius: 40%;
+  
+  }
+  
+  @keyframes mover {
+    from {
+      border-style: dashed;
+      border-color: #FFE5B4;
+    }
+  
+    to {
+      border-style: dotted;
+      border-color: whitesmoke;
+    }
+  
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  .bar input:hover {
+    text-shadow: #58629b;
+  }
+  
+  .bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background: #58629b;
+    cursor: pointer;
+  }
