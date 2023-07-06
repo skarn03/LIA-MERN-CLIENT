@@ -1,4 +1,3 @@
-import magni from '../magni.jpg';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Searchbar.css'
@@ -28,7 +27,7 @@ const Searchbar = ({ changeHeader }) => {
       <form className="bar" onSubmit={handleSubmit}>
         <input className="textbox" onChange={textHandle} type="text" placeholder={defaultSearchText} name="q" />
         <button className="clickable" type="submit">
-          <img src={magni} alt="search" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/1024px-Search_Icon.svg.png" alt="search" />
         </button>
       </form>
       <div></div>
